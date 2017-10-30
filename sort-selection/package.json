@@ -1,8 +1,8 @@
 {
     "name": "sort-selection",
     "displayName": "Sort selection",
-    "description": "Sort content within a selection block.",
-    "version": "1.0.0",
+    "description": "Sort a comma delimited list within a selection.",
+    "version": "1.0.1",
     "publisher": "jmredfern",
     "engines": {
         "vscode": "^1.17.0"
