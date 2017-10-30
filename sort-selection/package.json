@@ -2,7 +2,7 @@
     "name": "sort-selection",
     "displayName": "Sort selection",
     "description": "Sort content within a selection block.",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "publisher": "jmredfern",
     "engines": {
         "vscode": "^1.17.0"
@@ -11,13 +11,13 @@
         "Other"
     ],
     "activationEvents": [
-        "onCommand:extension.sayHello"
+        "onCommand:extension.sortSelection"
     ],
     "main": "./extension",
     "contributes": {
         "commands": [{
-            "command": "extension.sayHello",
-            "title": "Hello World"
+            "command": "extension.sortSelection",
+            "title": "Sort selection"
         }]
     },
     "scripts": {
