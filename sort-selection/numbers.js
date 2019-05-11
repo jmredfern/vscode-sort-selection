@@ -2,9 +2,9 @@ const vscode = require('vscode');
 
 function activate(context) 
 {
-	console.log('"sort-selection-semicolon" is active!');
+	console.log('"sort-selection-numbers" is active!');
 	
-	const disposable = vscode.commands.registerCommand('extension.sortSelectionSemicolon', () => 
+	const disposable = vscode.commands.registerCommand('extension.sortSelectionNumbers', () => 
 	{
 		const editor = vscode.window.activeTextEditor;
 		if (!editor) 
@@ -26,11 +26,16 @@ function activate(context)
 
 exports.activate = activate;
 
+function compareNumbers(a, b)
+{
+    return a - b;
+}
+
 function sort(txt) 
 {
 	const tokens = txt.split(/;\s*/);
-	const sortedTokens = tokens.sort(Intl.Collator().compare);
-	const sortedText = sortedTokens.join('; ');
+	const sortedTokens = tokens.sort(compareNumbers);
+	const sortedText = sortedTokens.join(', ');
 	return sortedText.slice(0, sortedText.length);
 }
 exports.sort = sort;

@@ -21,14 +21,9 @@ function activate(context) {
 }
 exports.activate = activate;
 
-function compareNumbers(a, b)
-{
-    return a - b;
-}
-
 function sort(txt) {
 	const tokens = txt.split(/,\s*/);
-	const sortedTokens = tokens.sort(compareNumbers, Intl.Collator().compare);
+	const sortedTokens = tokens.sort(Intl.Collator().compare);
 	const sortedText = sortedTokens.join(', ');
 	return sortedText.slice(0, sortedText.length);
 }
