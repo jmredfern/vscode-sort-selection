@@ -21,6 +21,8 @@ function activate(context) {
 }
 exports.activate = activate;
 
+// These codes are taken from https://stackoverflow.com/a/15479354, done by Georg Barikin (https://github.com/gebrkn)
+
 function naturalCompare(a, b) 
 {
     var ax = [], bx = [];

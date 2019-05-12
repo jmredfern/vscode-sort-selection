@@ -16,6 +16,10 @@ It also supports to order both alphabetically and numberically, with accented, n
 
 ## Changelog
 
+## 2.0.1 - 2019-05-12
+- Unified scripts
+- Supported unified natural sort
+
 ## 2.0.0 - 2019-05-11
 - Fixed and Support for alphabetical order of accented, non-accented and uppercase letters;
 - Support for numerical order: 0, 1, 2, 310, 11, 20, 22, 30, 33;
@@ -26,3 +30,5 @@ Improved description
 
 ### 1.0.0
 Initial release
+
+This extension is under MIT. The codes of natural sort (numbers, letters, accented letters and non-Latin letters), added by [Gustavo Costa](https://github.com/gusbemacbe) to the extension, are authored by [Georg Barikin](https://github.com/gebrkn). 
