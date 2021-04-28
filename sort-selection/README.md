@@ -4,7 +4,7 @@ This plugin adds the "Sort selection" and "Sort selection with semicolon" comman
 
 The command will sort a comma or semicolon delimited list within a selection.
 
-### Examplea:
+### Examples:
 
 * **Comma:** "a, c, b" will become "a, b, c"
 * **Semicolon:** "a; c; b" will become "a; b; c"
