@@ -1,39 +1,51 @@
 {
     "name": "sort-selection",
-    "displayName": "Sort selection",
-    "description": "Sort a delimited list within a selection.",
-    "version": "2.0.1",
+    "displayName": "Sort with punctation mark",
+    "description": "Sort a punctation-delimited list within a selection.",
+    "version": "2.0.2",
     "publisher": "jmredfern",
+    "license": "MIT",
     "engines": {
-        "vscode": "^1.17.0"
+        "vscode": "^1.19.0"
     },
     "categories": [
         "Other"
+    ],
+    "icon": "images/icon.png",
+    "homepage": "https://github.com/jmredfern/vscode-sort-selection/tree/master/sort-selection/README.md",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jmredfern/vscode-sort-selection"
+    },
+    "keywords": [
+        "alphanumberic",
+        "delimitation",
+        "punctation mark",
+        "selection",
+        "sort"
     ],
     "activationEvents": [
         "onCommand:extension.sortSelection"
     ],
     "main": "./extension",
     "contributes": {
-        "commands": [{
-            "command": "extension.sortSelection",
-            "title": "Sort selection"
-        }]
+        "commands": [
+            {
+                "command": "extension.sortSelection",
+                "title": "Sort with a punctation mark"
+            }
+        ]
     },
     "scripts": {
         "postinstall": "node ./node_modules/vscode/bin/install",
         "test": "node ./node_modules/vscode/bin/test"
     },
     "devDependencies": {
-        "typescript": "^2.5.2",
-        "vscode": "^1.1.5",
-        "mocha": "^3.5.0",
-        "eslint": "^4.6.1",
+        "@types/mocha": "^2.2.42",
         "@types/node": "^7.0.0",
-        "@types/mocha": "^2.2.42"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/jmredfern/vscode-sort-selection.git"
+        "eslint": "^4.6.1",
+        "mocha": "^3.5.0",
+        "typescript": "^2.5.2",
+        "vscode": "^1.1.5"
     }
 }
