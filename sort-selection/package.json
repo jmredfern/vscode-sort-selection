@@ -1,7 +1,7 @@
 {
     "name": "sort-selection",
-    "displayName": "Sort with punctuation mark",
-    "description": "Sort a punctuation-delimited list within a selection.",
+    "displayName": "Sort delimited list",
+    "description": "Sort a delimited list within a selection.",
     "version": "2.0.2",
     "publisher": "jmredfern",
     "license": "MIT",
@@ -20,6 +20,8 @@
     "keywords": [
         "alphanumberic",
         "delimitation",
+        "delimited list",
+        "list",
         "punctuation mark",
         "selection",
         "sort"
@@ -32,7 +34,7 @@
         "commands": [
             {
                 "command": "extension.sortSelection",
-                "title": "Sort with a punctuation mark"
+                "title": "Sort a delimited list"
             }
         ]
     },

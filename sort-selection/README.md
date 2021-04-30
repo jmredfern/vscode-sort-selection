@@ -1,4 +1,4 @@
-# Sort with a Punctation Mark
+# Sort a delimited list
 
 This plugin adds the "Sort with a punctation mark" command.
 
