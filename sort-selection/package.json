@@ -24,7 +24,8 @@
         "list",
         "punctuation mark",
         "selection",
-        "sort"
+        "sort",
+        "sort list"
     ],
     "activationEvents": [
         "onCommand:extension.sortSelection"

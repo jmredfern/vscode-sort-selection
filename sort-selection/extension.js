@@ -1,7 +1,7 @@
 const vscode = require('vscode');
 
 function activate(context) {
-	console.log('"sort-selection" is active!');
+	console.log('"sort-delimited-list" is active!');
 	
 	const disposable = vscode.commands.registerCommand('extension.sortSelection', () => {
 		const editor = vscode.window.activeTextEditor;

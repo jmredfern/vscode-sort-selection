@@ -1,13 +1,13 @@
 # Changelog
-All notable changes to the "sort-selection" extension will be documented in this file.
+All notable changes to the "Sort delimited list" extension will be documented in this file.
 
 ## 2.0.2 - 2021-04-29
-- Added extension icon
-- Extension renamed
+- Added extension icon;
+- Extension renamed from "Sort selection" to "Sort delimited list".
 
 ## 2.0.1 - 2019-05-12
-- Unified scripts
-- Supported unified natural sort
+- Unified scripts;
+- Supported unified natural sort.
 
 ## 2.0.0 - 2019-05-11
 - Fixed and Support for alphabetical order of accented, non-accented and uppercase letters;
@@ -15,7 +15,7 @@ All notable changes to the "sort-selection" extension will be documented in this
 - Added support for semicolon, very used in the `.desktop` files of Linux apps.
 
 ## 1.0.1 - 2017-10-29
-- Improved description
+- Improved description.
 
 ## 1.0.0 - 2017-10-29
-- Initial release
+- Initial release.
