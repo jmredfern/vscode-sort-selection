@@ -1,5 +1,5 @@
 {
-    "name": "sort-selection",
+    "name": "sort-delimited-list",
     "displayName": "Sort delimited list",
     "description": "Sort a delimited list within a selection.",
     "version": "2.0.2",
@@ -12,7 +12,7 @@
         "Other"
     ],
     "icon": "images/icon.png",
-    "homepage": "https://github.com/jmredfern/vscode-sort-selection/tree/master/sort-selection/README.md",
+    "homepage": "https://github.com/jmredfern/vscode-sort-selection/tree/master/sort-delimited-list/README.md",
     "repository": {
         "type": "git",
         "url": "https://github.com/jmredfern/vscode-sort-selection"
@@ -28,13 +28,13 @@
         "sort list"
     ],
     "activationEvents": [
-        "onCommand:extension.sortSelection"
+        "onCommand:extension.sortDelimitedList"
     ],
     "main": "./extension",
     "contributes": {
         "commands": [
             {
-                "command": "extension.sortSelection",
+                "command": "extension.sortDelimitedList",
                 "title": "Sort a delimited list"
             }
         ]
