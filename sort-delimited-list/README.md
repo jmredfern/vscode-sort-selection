@@ -30,9 +30,9 @@ Preview:
 - Supported unified natural sort
 
 ## 2.0.0 - 2019-05-11
-- Fixed and support for alphabetical order of accented, non-accented and uppercase letters;
-- Support for numerical order: 0, 1, 2, 11, 20, 22, 30, 33, 310;
-- Added support for semicolon, very used in the `.desktop` files of Linux apps.
+- Fixed and support for alphabetical order of accented, non-accented and uppercase letters
+- Support for numerical order: 0, 1, 2, 11, 20, 22, 30, 33, 310
+- Added support for semicolon, very used in the `.desktop` files of Linux apps
 
 ## 1.0.1
 Improved description
