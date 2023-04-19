@@ -47,7 +47,7 @@
         "@types/mocha": "^2.2.42",
         "@types/node": "^7.0.0",
         "eslint": "^4.6.1",
-        "mocha": "^3.5.0",
+        "mocha": "^10.2.0",
         "typescript": "^2.5.2",
         "vscode": "^1.1.5"
     }
